@@ -7,8 +7,6 @@
  <a href="#autor">Autor</a>
 
  ---
-
- <br>
 </p>
 
 ## Pré-requisitos
