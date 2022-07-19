@@ -31,6 +31,19 @@ $ pip install moviepy
 # Execute o arquivo .py
 $ python .\main.py
 ```
+
+### 💾 Transformando o projeto em um arquivo executável
+```bash
+# Primeiramente vamos baixar a biblioteca pyinstaller
+# Para isso acesse o seu terminal e digite o seguinte comando
+$ pip install pyinstaller
+
+# Agora vamos transformar o arquivo .py em um .exe
+$ pyinstaller --onefile --noconsole --windowed .\main.py
+```
+
+Após fazer isso, arraste o arquivo executável que está localizado na pasta dist para a pasta mãe do projeto onde estão localizadas todas as outras pastas
+
 ## Tecnologias
 💻 As seguintes ferramentas foram utilizadas no projeto:
 - [Python](https://www.python.org/)
